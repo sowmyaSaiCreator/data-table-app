@@ -8,6 +8,7 @@ import ACTIONS from "../../Constant/constant";
 const SearchInput = ({ dispatch }) => {
   const [input, setInput] = useState("");
   const handleSearch = (sValue) => {
+    sValue=sValue.toLowerCase();
     setInput(sValue);
     dispatch({ type: ACTIONS.SEARCH_LIST, payload: { value: sValue } });
   };
