@@ -1,0 +1,27 @@
+.app {
+  font-family: sans-serif;
+  background: hsl(191, 46%, 84%);
+}
+
+.align {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+  margin-right: 100px;
+}
+
+.card--align {
+  margin-left: 40%;
+  width: 400px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 100px;
+}
+.titleP {
+  font-weight: bolder;
+  text-align: center;
+  padding: 30px;
+}

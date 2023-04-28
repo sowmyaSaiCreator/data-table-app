@@ -1,0 +1,25 @@
+.card--align > div,
+.btn-align {
+  margin: 5px;
+}
+
+.form-align {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  padding: 30px;
+}

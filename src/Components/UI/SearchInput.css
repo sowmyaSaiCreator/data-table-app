@@ -1,0 +1,8 @@
+.input--align {
+  width: 50%;
+}
+#basic-addon1 {
+  background: hsl(191, 33%, 63%);
+  color: whitesmoke;
+  font-weight: bolder;
+}
